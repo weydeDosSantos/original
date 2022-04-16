@@ -51,7 +51,7 @@ public class Steps {
 	@Quando("^selecionar o botao quero ser cliente$")
 	public void selecionar_o_botao_quero_ser_cliente() throws Throwable {
 	
-		m.pausa(3333);
+		m.pausa(2000);
 		m.clicar(e.getBtnQueroSerCliente());
 	}
 
